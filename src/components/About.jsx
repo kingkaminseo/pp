@@ -1,6 +1,8 @@
+import './font.css'
+
 function About() {
     return(
-        <div style={{backgroundColor : 'white'}}>
+        <div style={{backgroundColor : 'white', boxShadow: '0px -10px 20px rgba(0, 0, 0, 0.487)'}}>
             <h1 style={{fontSize : '7vw',}}>About</h1>
 
             <p>

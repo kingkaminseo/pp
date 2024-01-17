@@ -8,7 +8,7 @@ function Main() {
     color: 'white',
     fontSize: '11vw',
     fontWeight: '900',
-    letterSpacing: '5px',
+    letterSpacing: '13px',
     textShadow: '0  5px #000000, 0 10px',
 }}>
     portFolio
@@ -17,6 +17,7 @@ function Main() {
     color: 'white',
     fontSize: '11vw',
     fontWeight: '900',
+    letterSpacing: '13px',
     textShadow: '0  5px #000000, 0 10px',
 }}>
     FrontEnd
@@ -37,9 +38,10 @@ function Main() {
     height: '40vw',
     border: '3px dashed rgba(255, 255, 255, 0.8)',
     position: 'absolute',
-    float: 'right',
+    right: '-10vw',
+    bottom: '-10vw',
     transform: 'rotate(-20deg)',
-    left : '75vw'
+
 }}></div>
 
         
