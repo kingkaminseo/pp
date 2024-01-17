@@ -12,13 +12,13 @@ function TopNavbar() {
 
     return (
         <>
-            <Navbar className='sticky-top' style={{ backgroundColor : 'rgb(25, 25, 25)', color : 'white' }}>
+    <Navbar className='sticky-top' style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)', backdropFilter: 'blur(10px)', color: 'white', }}>   
                 <Container>
-                    <Navbar.Brand href="#home" style={{color : 'white',fontWeight : '600'}}>김민서 Portfolio</Navbar.Brand>
+                    <Navbar.Brand href="#home" style={{color : 'white',fontWeight : '600'}}>Minseo</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Navbar.Text>
-                            <Button className="border-0" onClick={handleShow} style={{ backgroundColor : 'rgb(35, 35, 35)', color : 'white', fontWeight : '600' }}>
+                            <Button className="border-0" onClick={handleShow} style={{ backgroundColor : 'none', color : 'white', fontWeight : '600' }}>
                                 메뉴
                             </Button>
                         </Navbar.Text>
