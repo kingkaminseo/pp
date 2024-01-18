@@ -6,7 +6,7 @@ import About from './components/About';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{border : '1px solid red', overflow : 'hidden'}}>
         <TopNavbar />
         <Main/>
         <About/>

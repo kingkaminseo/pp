@@ -1,13 +1,14 @@
+import Produce from './Produce'
 import './font.css'
 
 function About() {
     return(
-        <div style={{backgroundColor : 'white', boxShadow: '0px -10px 20px rgba(0, 0, 0, 0.487)'}}>
-            <h1 style={{fontSize : '7vw',}}>About</h1>
+        <div style={{boxShadow: '0 -10px 20px rgb(0, 0, 0)', backgroundColor : 'white'}}>
 
-            <p>
-                문제에 직면할 때마다 새로운 기회로 바라보고, 그것을 해결함으로써 느끼는 성취감을 중요하게 생각합니다.
-            </p>
+ 
+                <div style={{backgroundColor : 'rgb(1, 58, 251)', width : '50vw', height : '50vw', position : 'absolute', borderRadius : '50%',zIndex : '0',right : '70vw'}}></div>
+                <h1>About</h1>
+                <Produce/>
         </div>
     )
 }
